@@ -1,4 +1,4 @@
-name: 'aws-iam-authenticator installer'
+name: 'aws-iam-authenticator installer action'
 description: 'Install a specific version of aws-iam-authenticator'
 inputs: 
   version:
