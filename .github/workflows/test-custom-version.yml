@@ -1,0 +1,15 @@
+name: Test with version
+
+on:
+  push:
+    branches:    
+      - master
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: latticehr/action-aws-iam-authenticator@master
+      with:
+        version: 0.5.5
+    - run: aws-iam-authenticator version
