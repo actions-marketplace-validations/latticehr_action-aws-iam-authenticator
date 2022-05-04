@@ -4,7 +4,7 @@ inputs:
   version:
     description: 'Version of aws-iam-authenticator'
     required: true
-    default: '0.4.0'
+    default: '0.5.7'
 branding:
   icon: 'gift'
   color: 'blue'
