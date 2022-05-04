@@ -16,7 +16,7 @@ jobs:
   test:
     runs-on: ubuntu-latest
     steps:
-    - uses: prepor/action-aws-iam-authenticator@master
+    - uses: latticehr/action-aws-iam-authenticator@master
     - run: aws-iam-authenticator version
 ```
 
@@ -34,7 +34,7 @@ jobs:
   test:
     runs-on: ubuntu-latest
     steps:
-    - uses: prepor/action-aws-iam-authenticator@master
+    - uses: latticehr/action-aws-iam-authenticator@master
       with:
         version: 0.5.5
     - run: aws-iam-authenticator version
